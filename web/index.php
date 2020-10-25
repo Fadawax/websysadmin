@@ -2,14 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
+
         <title>Mon super site</title>
+
+        <link rel="icon" type="image/png" href="../pictures/icons/tools.svg" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+
     </head>
  
     <body>
  
-    <?php include("header.php"); ?>
-    
-    <?php include("menu.php"); ?>
+    <?php include("../php/header.php"); ?>
     
     <!-- Le corps -->
     
@@ -24,7 +27,7 @@
     
     <!-- Le pied de page -->
     
-    <?php include("footer.php"); ?>
+    <?php include("../php/footer.php"); ?>
     
     </body>
 </html>
