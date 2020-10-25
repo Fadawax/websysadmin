@@ -2,22 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Mon super site</title>
+        <title>WebSysAdmin</title>
 
-        <link rel="icon" type="image/png" href="../pictures/icons/tools.svg" />
-        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link rel="icon" href="mind_map.svg" sizes="any" type="image/svg+xml"/>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
 
     </head>
- 
+
     <body>
- 
-    <?php include("../php/header.php"); ?>
-    
+
+    <?php include("header.php"); ?>
+
+    <?php include("menu.php"); ?>
+
     <!-- Le corps -->
     
-    <div id="corps">
-        <h1>Mon super site</h1>
+    <div id="body" style="position: relative; margin-top:50px; margin-left:auto; margin-right:auto; width: 90%;" >
+        <h1>Web Sys Admin</h1>
         
         <p>
             Bienvenue sur mon super site !<br />
@@ -27,7 +30,7 @@
     
     <!-- Le pied de page -->
     
-    <?php include("../php/footer.php"); ?>
-    
+    <?php include("footer.php"); ?>
+      
     </body>
 </html>
