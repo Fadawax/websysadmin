@@ -4,33 +4,27 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>WebSysAdmin</title>
+        <title>S.A.W.</title>
 
         <link rel="icon" href="mind_map.svg" sizes="any" type="image/svg+xml"/>
         <link rel="stylesheet" href="bootstrap.min.css"/>
-
     </head>
 
+    <header>
+        <div>
+            <?php include("header.php"); ?>
+        </div>
+    </header>
+
     <body>
-
-    <?php include("header.php"); ?>
-
-    <?php include("menu.php"); ?>
-
-    <!-- Le corps -->
-    
-    <div id="body" style="position:relative; margin-top:60px; margin-left:auto; margin-right:auto; width:90%; background-color:grey; border-radius:10px; box-shadow: 6px 6px 0px black;">
-        <h1>Web Sys Admin</h1>
-        
-        <p>
-            Bienvenue sur mon super site !<br />
-            Vous allez adorer ici, c'est un site génial qui va parler de... euh... Je cherche encore un peu le thème de mon site. :-D
-        </p>
-    </div>
-    
-    <!-- Le pied de page -->
-    
-    <?php include("footer.php"); ?>
-      
+        <div>
+            <?php include("accueil.php"); ?>
+        </div>
     </body>
+
+    <footer>
+        <div>
+            <?php include("footer.php"); ?>
+        </div>
+    </footer>
 </html>
