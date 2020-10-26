@@ -5,7 +5,7 @@
  
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <!-- Brand -->
-        <img src="mind_map.svg" alt="logo" style="width:40px;"/>
+        <img src="mind_map.svg" alt="logo" style="width:40px;">
         <a class="navbar-brand" style="margin-left:10px; color:silver;">SysAdminWeb</a>
         <div class="dropdown">
           <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left:10px;">
@@ -45,7 +45,7 @@
             INFOS
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">IP infos</a>
+            <a class="dropdown-item" href="ipinfos.php">IP infos</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>

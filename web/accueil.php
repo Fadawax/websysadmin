@@ -20,7 +20,7 @@
     <!-- Le corps -->
 
     <div id="body" style="position:relative; margin-top:60px; margin-left:auto; margin-right:auto; width:90%; background-color:grey; box-shadow: 5px 5px 0px silver;">
-        <h1>Web Sys Admin</h1>
+        <h1>Sys Admin Web</h1>
         
         <p>
             Bienvenue sur mon super site !<br />
@@ -30,12 +30,16 @@
 
     <div id="info">
         <?php
-            $host = gethostbyaddr("$REMOTE_ADDR");
-
+            $ip = $_SERVER['REMOTE_ADDR'];
+            $host = gethostbyaddr("$ip");
+            $user_agent = $_SERVER["HTTP_USER_AGENT"];
+            echo "$ip";
             echo "$host";
+            echo "$user_agent";
         ?>
 
         <?php phpinfo(); ?>
+
     </div>
               
     </body>
