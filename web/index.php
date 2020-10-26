@@ -19,7 +19,7 @@
 
     <!-- Le corps -->
     
-    <div id="body" style="position: relative; margin-top:50px; margin-left:auto; margin-right:auto; width: 90%;" >
+    <div id="body" style="position:relative; margin-top:60px; margin-left:auto; margin-right:auto; width:90%; background-color:grey; border-radius:10px; box-shadow: 6px 6px 0px black;">
         <h1>Web Sys Admin</h1>
         
         <p>
